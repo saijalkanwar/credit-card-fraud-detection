@@ -1,0 +1,6 @@
+Model,Threshold,FN,FP,Precision,Recall,F1,PR-AUC,Cost
+Logistic Regression,0.5,30,8,0.889,0.681,0.771,0.801,15040
+Decision Tree,0.5,22,11,0.867,0.766,0.814,0.798,11055
+Random Forest,0.5,16,8,0.907,0.83,0.867,0.875,8040
+XGBoost,0.5,14,5,0.941,0.851,0.894,0.886,7025
+XGBoost + scale_pos_weight,0.5,11,718,0.104,0.883,0.185,0.772,9090
